@@ -8,3 +8,11 @@ The main program is in main.py and mnistapp.kv files.
 
 The program starts when the user presses the "Start" button. Then the user can draw on the black area.
 ![start](https://github.com/Jarsse/NumberDrawingKivyMnist/blob/main/images/start.png?raw=true)
+The "Reset" button removes the current drawings and predict button asks the neural network to predict which number is currently drawn. 
+Currently the program also has 20% chance to give prediction each time the user draws something on the screen.
+![two](https://github.com/Jarsse/NumberDrawingKivyMnist/blob/main/images/two.png?raw=true)
+The network predicts the numbers pretty well.
+![three](https://github.com/Jarsse/NumberDrawingKivyMnist/blob/main/images/three.png?raw=true)
+
+![five](https://github.com/Jarsse/NumberDrawingKivyMnist/blob/main/images/five.png?raw=true)
+Sometimes the network gives wrong answers but so far it has given the right prediction after more precise drawing or whitening the image with more clicks.
